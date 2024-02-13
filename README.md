@@ -2,7 +2,7 @@
 
 # H1 Posmotri v Okno
 
-## H2 Ispravlen
+## H2 Ispravlen_2
 
 =======
 https://github.com/Graf-BeAnR/posmotri_v_okno.git
