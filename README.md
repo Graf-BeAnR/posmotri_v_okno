@@ -2,11 +2,7 @@
 
 # H1 Posmotri v Okno
 
-## H2 Last Iteration
-
-### H3
-
-Разместил content посередине page
+## H3 Last Iteration
 
 =======
 https://github.com/Graf-BeAnR/posmotri_v_okno.git

@@ -41,13 +41,11 @@ ol {
 }
 
 .content {
-	width: 11400px;
-	height: 534px;
+	width: 1140px;
 	margin: 0;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
-
 	gap: 30px;
 }
 
@@ -55,7 +53,6 @@ ol {
 	width: 711px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
 }
 
 .result__video-container {
