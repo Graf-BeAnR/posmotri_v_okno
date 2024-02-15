@@ -12,12 +12,13 @@ html {
 	inline-size: 1200px;
 	block-size: 100%;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: auto;
 	color: #fff;
 	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 18px;
 	background-color: #1b1919;
-	overflow: hidden;
 }
 
 h1,
@@ -40,16 +41,21 @@ ol {
 }
 
 .content {
+	width: 11400px;
+	height: 534px;
 	margin: 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
+
 	gap: 30px;
 }
 
 .result {
 	width: 711px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 .result__video-container {
@@ -237,6 +243,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 
 .content__list {
 	position: relative;
+	width: 399px;
 	height: 298px;
 	margin-top: 26px;
 	overflow-y: auto;
@@ -281,6 +288,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 194px;
+	margin-top: 3px;
 	background-color: transparent;
 }
 
@@ -294,10 +302,14 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 	font-size: 30px;
 	line-height: 100%;
 	text-transform: uppercase;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .content__video-card-description {
-	font-family: 'Fira Sans Condensed', serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 90%;
